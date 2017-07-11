@@ -1,0 +1,27 @@
+@import 'mixins.scss';
+
+body{
+	@include regular;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 1.45;
+	margin: 0;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	background: $offwhite;
+	color: $textBlack;
+}
+body, html, .full-height{
+	height: 100%;
+}
+a{
+
+}
+a:hover, a:focus, a:active{
+	text-decoration: none;
+}
+
+/* Remove Bootstrap Margin*/
+.navbar {
+    margin-bottom: 0px;
+}
+/* Remove Bootstrap Margin*/
