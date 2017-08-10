@@ -13,7 +13,7 @@
             <meta property="og:image" content="img/logo117.png" />
             <link rel="image_src" href="img/logo117.png" / >
             <meta name="description" content="" />
-            <title>Bidla - Change</title>
+            <title>Timecare</title>
         </head>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">

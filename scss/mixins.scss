@@ -93,6 +93,11 @@
   height:         calc(#{$a} - #{$b});
 }
 
+@mixin background-cover-norepeat{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @mixin light{
 		font-family: 'Noto Sans', sans-serif;
 		font-style: normal;
@@ -117,7 +122,3 @@
 }
 
 /* ----- COLOUR PALETTE ------- */
-
-$pastelBlue: #6B8FD1;
-$pastelGreen: #479DAF;
-$pastelRed: #FF7F75;
